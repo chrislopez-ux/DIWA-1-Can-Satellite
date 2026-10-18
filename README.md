@@ -6,6 +6,7 @@ Contributed in the creation of DIWA-1, a student-built Can Satellite that collec
 <p align="center">
 <img width="641" height="857" alt="image" src="https://github.com/user-attachments/assets/809a441a-968f-4475-a6b2-5f53d95257ed" />
 </p>
+
 ## Hardware List
 **Breadboard** \
 **ESP32 DEVKIT V1 38-Pin** \
