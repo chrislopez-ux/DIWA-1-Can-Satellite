@@ -3,6 +3,8 @@ Amateur Atmospheric Data Acquisition Can Satellite
 
 Contributed in the creation of DIWA-1, a student-built Can Satellite that collects atmospheric data such as pressure, altitude, and temperature through the main MPL3115A2 sensor. Programmed the ESP32-DevKit V1 microcontroller which recieves the data from the sensor and sends it to a ground reciever connected to a laptop displaying the data. Also helped in engineering and wiring the electronics inside the CanSat's compact structure.
 
+<img width="641" height="857" alt="image" src="https://github.com/user-attachments/assets/809a441a-968f-4475-a6b2-5f53d95257ed" />
+
 Hardware List: \
 Breadboard \
 ESP32 DEVKIT V1 38-Pin \
