@@ -24,7 +24,7 @@ Contributed in the creation of DIWA-1, a student-built Can Satellite that collec
 The averaged sensor measurements demonstrate strong compliance with verification criteria. Temperature at 31.214°C falls well within the ±1–2°C tolerance of an actual value around 31°C, with a minimal deviation of just 0.214°C. The pressure averages 1010.6625 hPa which coordinates inside the local range of 1005–1012 hPa. Additionally, the altitude at 10.413 m aligns precisely with the ±3–5 m threshold describing the elevation of the area.
 
 ## Code Sources and Credits: 
-- The master and slave microcontroller code is based on the ESP-NOW Broadcast Master and ESP-NOW Broadcast Slave examples by Lucas Saavedra Vaz (2024), included with the Arduino-ESP32 core by Espressif (https://github.com/espressif/arduino-esp32)
+- The Sender and Receiver microcontroller code is based on the ESP-NOW Broadcast Master and ESP-NOW Broadcast Slave examples by Lucas Saavedra Vaz (2024), included with the Arduino-ESP32 core by Espressif (https://github.com/espressif/arduino-esp32)
 - Sensor readings from the MPL3115A2 (pressure, altitude, and temperature) use the Adafruit MPL3115A2 Library by Adafruit (https://github.com/adafruit/Adafruit_MPL3115A2_Library)
 - I adapted these for DIWA-1 by combining sensor readings with ESP-NOW transmission, changing the SI units by conversion, formatting the data, and adding the data logging. The wiring, integration, testing, and data analysis were also done by me.
 
